@@ -1,12 +1,12 @@
 
-public class MinimumOfRotatedArray {
+public class MinimumOfRotatedArrayWithRecursion {
 
 	public static void main(String args[]){
-		int arr[]={21,20,19,11,10,2};
+		int arr[]={4,6,8,9,1,2,3};
 		int start=0;
 		int end=arr.length-1;
 		int mid=(start+end)/2;
-		MinimumOfRotatedArray minimumOfRotatedArray=new MinimumOfRotatedArray();
+		MinimumOfRotatedArrayWithRecursion minimumOfRotatedArray=new MinimumOfRotatedArrayWithRecursion();
 		int minElement=minimumOfRotatedArray.findMinimumElement(arr, start,  end, mid);
 		System.out.print(minElement);
 		
