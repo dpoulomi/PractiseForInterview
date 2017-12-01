@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
  
-class Node {
+/*class Node {
     int data;
     Node left, right;
  
@@ -9,7 +9,7 @@ class Node {
         data = value;
         left = right = null;
     }
-}
+}*/
  
 public class LowestAncestor 
 {
